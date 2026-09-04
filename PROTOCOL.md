@@ -153,8 +153,8 @@ claims lack — recompute and compare. State every figure as one of three kinds:
   "measured … on DATE" phrasing (versus a "(recipe: …)" parenthetical) is what
   distinguishes frozen from stored-with-recipe. The normative ELEMENTS are the verb, an
   ISO date and the value, co-present in one sentence; word order and connectives are free.
-  "measured" is the machine-tier keyword — another past-measurement verb ("took 7.1 s on
-  2026-09-04, warm caches") is frozen IN SUBSTANCE and reconcile must protect it the same
+  "measured" is the machine-tier keyword — another past-measurement verb ("the job took
+  210 ms on 2026-09-04, warm cache") is frozen IN SUBSTANCE and reconcile must protect it the same
   way: the never-silently-correct rule follows substance, never vocabulary. The inputs
   clause is strongly expected (it is what makes a future measurement comparable and the
   record interpretable) but not load-bearing, and backticks within it are optional: frozen
@@ -165,8 +165,8 @@ claims lack — recompute and compare. State every figure as one of three kinds:
 A derive-on-demand figure has NO marker and no stored value: the backticked command
 stands where the number would. Dates in markers are ISO `YYYY-MM-DD`, ASCII digits;
 quote UTC whenever a timestamp matters. The taxonomy is triggered by the FIGURE — the
-number — never by the verb: a qualitative "measured" finding ("measured, that is worse
-than one") is an ordinary claim with no marker contract, and a checker must not flag
+number — never by the verb: a qualitative "measured" finding ("measured, the fallback
+is slower") is an ordinary claim with no marker contract, and a checker must not flag
 date-absence in a sentence that carries no figure.
 "Stale = conflicting, NOT old" stands: age is still not a signal. Recomputability is how a
 figure's conflict is DETECTED — including the self-consistent table that agrees with itself
