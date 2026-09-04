@@ -7,6 +7,25 @@
      midnight. A stored date can't be known before the merge lands and goes stale if it
      slips. -->
 
+## 0.2.12
+
+### Changed
+
+- `PROTOCOL.md` Figures: four clarifications from field application by a
+  downstream adopter, each resolving a question live pages raised. (1) The
+  frozen marker is normative in ELEMENTS (verb + ISO date + value co-present
+  in one sentence), not word order. (2) The inputs clause is strongly
+  expected but not load-bearing, and backticks within it are optional —
+  frozen is exempt from machine checking, so there is no checkability to
+  discriminate. (3) The pinned parenthetical and the "measured" keyword are
+  the MACHINE tier; value/date/backticked-command bound in prose, or a
+  synonym verb ("took 7.1 s on ..."), are conforming IN SUBSTANCE —
+  agent-verifiable, machine-invisible, and reconcile's never-silently-correct
+  rule follows substance, never vocabulary. (4) The taxonomy is triggered by
+  the figure (the number), never the verb: a qualitative "measured" finding
+  is an ordinary claim, and checkers must not flag date-absence in sentences
+  carrying no figure. No linter behavior change.
+
 ## 0.2.11
 
 ### Changed
